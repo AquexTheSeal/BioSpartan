@@ -90,6 +90,7 @@ public class BSItems {
         scythes = new BSStandardWeapons(WeaponFactory.SCYTHE);
     }
 
+    // Imagine not Deferred Registries :(
     @SubscribeEvent
     public static void registerItems(RegistryEvent.Register<Item> event) {
         IForgeRegistry<Item> reg = event.getRegistry();

@@ -11,7 +11,7 @@ public class BSItemGroups {
 
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(BSItems.sabers.fleignarite);
+            return new ItemStack(BSItems.battleaxes.fleignarite);
         }
     };
 }

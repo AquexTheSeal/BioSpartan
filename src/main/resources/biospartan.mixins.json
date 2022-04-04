@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "io.biospartan.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "bioplethora.mixin-refmap.json",
+  "mixins": [
+    "AbstractArrowMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

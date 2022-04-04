@@ -1,0 +1,6 @@
+{
+  "parent": "spartanweaponry:item/base/tomahawk_throwing",
+  "textures": {
+    "layer0": "biospartan:item/tomahawk_reinforced_fleignarite"
+  }
+}

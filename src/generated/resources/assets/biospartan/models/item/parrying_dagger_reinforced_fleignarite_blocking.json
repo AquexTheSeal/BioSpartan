@@ -1,0 +1,6 @@
+{
+  "parent": "spartanweaponry:item/base/parrying_dagger_blocking",
+  "textures": {
+    "layer0": "biospartan:item/parrying_dagger_reinforced_fleignarite"
+  }
+}

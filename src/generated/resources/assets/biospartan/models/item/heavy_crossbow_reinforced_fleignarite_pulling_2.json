@@ -1,0 +1,6 @@
+{
+  "parent": "spartanweaponry:item/base/heavy_crossbow_pulling",
+  "textures": {
+    "layer0": "biospartan:item/heavy_crossbow_reinforced_fleignarite_pulling_2"
+  }
+}

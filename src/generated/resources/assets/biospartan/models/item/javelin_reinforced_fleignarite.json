@@ -1,0 +1,21 @@
+{
+  "parent": "spartanweaponry:item/base/javelin",
+  "textures": {
+    "layer0": "biospartan:item/javelin_reinforced_fleignarite"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "minecraft:throwing": 1.0,
+        "minecraft:empty": 0.0
+      },
+      "model": "biospartan:item/javelin_reinforced_fleignarite_throwing"
+    },
+    {
+      "predicate": {
+        "minecraft:empty": 1.0
+      },
+      "model": "spartanweaponry:item/base/javelin_empty"
+    }
+  ]
+}

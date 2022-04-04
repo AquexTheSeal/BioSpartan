@@ -1,0 +1,14 @@
+{
+  "parent": "spartanweaponry:item/base/parrying_dagger",
+  "textures": {
+    "layer0": "biospartan:item/parrying_dagger_fleignarite"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "minecraft:blocking": 1.0
+      },
+      "model": "biospartan:item/parrying_dagger_fleignarite_blocking"
+    }
+  ]
+}

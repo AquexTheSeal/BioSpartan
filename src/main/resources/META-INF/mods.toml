@@ -1,0 +1,37 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="MIT"
+[[mods]]
+modId="biospartan"
+version="${file.jarVersion}"
+displayName="Biospartan"
+description='''
+Spartan Weaponry compatibility for the Bioplethora Project.
+'''
+[[dependencies.biospartan]]
+   modId="forge"
+   mandatory=true
+   versionRange="[36,)"
+   ordering="NONE"
+   side="BOTH"
+
+[[dependencies.biospartan]]
+   modId="minecraft"
+   mandatory=true
+   versionRange="[1.16.5,1.17)"
+   ordering="NONE"
+   side="BOTH"
+
+[[dependencies.biospartan]]
+    modId="spartanweaponry"
+    mandatory=true
+    versionRange="[2.2.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.biospartan]]
+    modId="bioplethora"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

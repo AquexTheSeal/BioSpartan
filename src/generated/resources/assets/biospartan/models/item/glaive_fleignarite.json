@@ -1,0 +1,6 @@
+{
+  "parent": "spartanweaponry:item/base/glaive",
+  "textures": {
+    "layer0": "biospartan:item/glaive_fleignarite"
+  }
+}

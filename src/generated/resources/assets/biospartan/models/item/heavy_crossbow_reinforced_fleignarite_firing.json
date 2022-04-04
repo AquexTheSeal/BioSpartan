@@ -1,0 +1,6 @@
+{
+  "parent": "spartanweaponry:item/base/heavy_crossbow_firing",
+  "textures": {
+    "layer0": "biospartan:item/heavy_crossbow_reinforced_fleignarite_loaded"
+  }
+}

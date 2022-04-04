@@ -73,10 +73,18 @@ public class BSLanguageProvider extends LanguageProvider {
             return split[0];
 
         } else if (split.length == 2) {
-            return split[1] + " " + split[0];
+            if (BSItems.battleHammers.getAsList().contains(item)) {
+                return split[1] + " Battle " + split[0];
+            } else {
+                return split[1] + " " + split[0];
+            }
 
         } else if (split.length == 3) {
-            if (twoStringBase(item)) {
+            if (BSItems.battleHammers.getAsList().contains(item)) {
+                String firstWord = split[1] + " " + split[2];
+                String secondWord = split[0];
+                return firstWord + " Battle " + secondWord;
+            } else if (twoStringBase(item)) {
                 String firstWord = split[2];
                 String secondWord = split[0] + " " + split[1];
                 return firstWord + " " + secondWord;
